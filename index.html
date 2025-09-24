@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Pranjal Singh</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Typed.js (for typing effect in hero)-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assests/favicon-32x32.png">
+    <!--Font for the name logo-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded!');
+        });
+    </script>
+
+
+</head>
+<body>
+    <!-- NAVBAR-->
+     <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Pranjal</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
+    
+     <!--Hero section-->
+     <section id="home" class="home">
+        <div id="particles-js"></div>
+
+        <div class="hero-text">
+            <h2>Hi There 👋<br> I'm Pranjal <span>Singh</span></h2>
+            <p>i am into <span id="typing"></span></p>
+            <a href="#about" class="btn">About me
+                <i class="fas fa-arrow-circle-down"></i>
+            </a>
+
+            <!--Social icons-->
+            <div class="social-links">
+                <a href="https://github.com/Ksingh-pranjal"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/singhpranjal26"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/khushi._pranjal"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.telegram.org/k/"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img draggable="false" src="./assests/hero.png" alt="hero-image">
+        </div>
+     </section>
+
+     <!--About section-->
+     <section id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./assests/myImage.png" alt="Me">
+            </div>
+            <div class="about-text">
+                <h2>A Quick Snapshot!</h2>
+                <p>I am an aspiring software engineer based in Sonbhadra, India. 
+                    I am a 2nd year Computer Science undergraduate from VIT-AP.
+                    I am very passionate about improving my coding skills & developing applications & websites.
+                    Working for myself to improve my skills.
+                    Love to build & bring perfection. </p>
+                <p><strong>Email:</strong> <i>khushi.pranjalsingh@gmail.com</i></p>
+                <p><strong>Address:</strong><i> Sonbhadra(U.P),India</i> </p>    
+            </div>
+        </div>
+     </section>
+
+     <!--Skills section-->
+     <section id="skills">
+        <h2>Skills & Abilities</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><i class="fab fa-html5"></i><p>HTML</p></div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+            <div class="skill-item"><i class="fab fa-js"></i><p>JavaScript</p></div>
+            <div class="skill-item"><i class="fab fa-python"></i><p>Python</p></div>
+            <div class="skill-item"><i class="fab fa-java"></i><p>Java</p></div>
+        </div>
+     </section>
+
+     <!--Education section-->
+     <section id="education">
+        <h2>My Education</h2>
+        <div class="education-list">
+            <div class="edu-item">
+                <img src="./assests/vitap.png" alt="vit-ap">
+                <div class="edu-details">
+                <h3>Vellore Institute of Technology,Amravati</h3>
+                <p>B.Tech-CSE Core | 2024-2028</p>
+                </div>
+            </div>
+
+            <div class="edu-item">
+                <img src="./assests/cskm.png" alt="CSKM">
+                <div class="edu-details">
+                <h3>Col Satsangi's Kiran Mem Public School,New Delhi</h3>
+                <p>Intermediate | 2022-2024</p>
+                </div>
+            </div>
+
+            <div class="edu-item">
+                <img src="./assests/shcs.png" alt="vit-ap">
+                <div class="edu-details">
+                <h3>Sacred Heart Convent School,Sonbhadra(U.P) </h3>
+                <p>High School | 2010-2022</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Projects section-->
+     <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+        <!-- Example Project Card -->
+        <div class="project-card">
+            <img src="./assests/conferenceTicket.jpg" alt="ConferenceTicket">
+            <h3>Conference Ticket Generator</h3>
+            <p>A web page that dynamically generates customized conference tickets based on user input. Built with HTML, CSS, and JavaScript, it focuses on interactive UI and real-time ticket preview.</p>
+            <a href="https://github.com/Ksingh-pranjal/conference-ticket-generator" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <img src="./assests/contactForm.jpg" alt="ContactForm">
+            <h3>Contact Form</h3>
+            <p>A responsive contact form that collects user messages. Built with HTML, CSS, and JavaScript, it emphasizes form validation and user-friendly design.</p>
+            <a href="https://github.com/Ksingh-pranjal/contact-form" target="_blank">View on GitHub</a>
+        </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!--Footer-->
+   <footer id="footer">
+    <div class="footer-container">
+        <!-- Left: About -->
+        <div class="footer-about">
+        <h3>Pranjal's Portfolio</h3>
+        <p>
+            Thank you for visiting my personal portfolio website.  
+            Connect with me over socials.  
+            <br><br>
+            Keep Rising 🚀. 
+        </p>
+        </div>
+
+        <!-- Middle: Quick Links -->
+        <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Experience</a></li>
+        </ul>
+        </div>
+
+        <!-- Right: Contact Info -->
+        <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <p>📞 +91 XXX-XXX-XXXX</p>
+        <p>📧 khushi.pranjalsingh@gmail.com</p>
+        <p>📍 Sonbhadra, India</p>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <hr>
+        <p>Designed with ❤️ by Pranjal Singh</p>
+    </div>
+    </footer>
+
+
+    <!--Link JS-->
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed("#typing", {
+            strings: ["Web Development","Web Design", "Software Engineering", "Problem Solving"],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true
+        });
+    </script>
+</body>
+</html>
